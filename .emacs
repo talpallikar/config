@@ -11,7 +11,7 @@
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
      ("melpa-stable" . "http://stable.melpa.org/packages/"))))
- '(package-selected-packages (quote (helm dracula-theme haskell-mode))))
+ '(package-selected-packages (quote (magit helm dracula-theme haskell-mode))))
 
 (package-initialize)
 (custom-set-faces
@@ -23,4 +23,4 @@
 
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'dracula t)
+(load-theme 'solarized t)
