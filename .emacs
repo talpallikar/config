@@ -11,7 +11,7 @@
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
      ("melpa-stable" . "http://stable.melpa.org/packages/"))))
- '(package-selected-packages (quote (dracula-theme haskell-mode))))
+ '(package-selected-packages (quote (helm dracula-theme haskell-mode))))
 
 (package-initialize)
 (custom-set-faces
