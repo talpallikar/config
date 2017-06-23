@@ -14,6 +14,7 @@
  '(package-selected-packages (quote (magit helm dracula-theme haskell-mode))))
 
 (package-initialize)
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -24,3 +25,4 @@
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (load-theme 'solarized t)
+(global-linum-mode t)
